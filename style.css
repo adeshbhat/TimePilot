@@ -1,0 +1,87 @@
+.body{
+    color: rgb(64, 7, 219);
+    font-family: cursive;
+}
+.stopwatch{
+    width: 75%;
+    max-width: 900px;
+    /* background-image: linear-gradient(black,rgba(0,0,0,0.7));
+    background-size: cover; */
+    background: linear-gradient(to right, #fa0b0b, #ffbb00, #049b18);
+            background-size: 500% 200%;
+            animation: gradientAnimation 15s linear infinite;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-position: center;
+    color: rgb(5, 78, 143);
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 50px;
+    box-shadow: 0 25 25px rgb(21, 0, 6);
+    font-family: cursive;
+}
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+.timer h1{
+    padding-top: 25px;
+    margin-top: 150px;
+    font-size: 70px;
+    font-weight: bold;
+    font-family:ui-sans-serif;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    padding-bottom: 30px;
+
+}
+.buttons img{
+    width: 50px;
+    margin: 0 20px;
+    cursor: pointer;
+
+}
+.lap h1{
+    font: size 15px;;
+  cursor: pointer;
+  text-align: center;
+  margin-left: 40px;
+  padding-bottom: 0;
+  margin-bottom: 5px;
+  font-family: ui-sans-seri;
+}
+.lap h3{
+  text-align: left;
+  margin-left: 50px;
+  font-family: ui-sans-seri;
+  margin-bottom: 20px;
+}
+.lap h1:hover{
+    color: rgb(26, 15, 108);
+}
+.instructions p{
+    text-align: right;
+    display: none;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+.instructions h5{
+    cursor: pointer;
+    text-align: center;
+   
+}
+.instructions h5:hover{
+    color: rgb(11, 139, 218);
+}
